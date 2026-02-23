@@ -1,27 +1,39 @@
-// Course schedules for Forensic Ballistics Courses in 2026
-
-const courseSchedules = [
-    {
-        courseName: 'Introduction to Forensic Ballistics',
-        startDate: '2026-03-01',
-        endDate: '2026-03-30',
-        time: '09:00 - 11:00',
-        location: 'Room A'
+// horariosFCBalistica2026.js
+window.horariosCursos = {
+    "Balística Forense: Teoría, Práctica y Aplicaciones": {
+        horario: "Lunes de 16 a 21 hs.",
+        enlace: "Link al aula virtual",
+        periodo: "1er Bimestre - 23 de Marzo al 15 de Mayo",
+        docente: ""
     },
-    {
-        courseName: 'Advanced Forensic Ballistics',
-        startDate: '2026-04-05',
-        endDate: '2026-05-05',
-        time: '13:00 - 15:00',
-        location: 'Room B'
+    "Armas de Fuego y sus Mecanismos de Funcionamiento": {
+        horario: "Miércoles de 16 a 21 hs.",
+        enlace: "Link al aula virtual",
+        periodo: "1er Bimestre - 23 de Marzo al 15 de Mayo",
+        docente: ""
     },
-    {
-        courseName: 'Forensic Ballistics Case Studies',
-        startDate: '2026-06-01',
-        endDate: '2026-06-30',
-        time: '10:00 - 12:00',
-        location: 'Room C'
+    "Análisis Legal y Pericial de Armas de Fuego y Material Balístico": {
+        horario: "Lunes de 16 a 21 hs.",
+        enlace: "Link al aula virtual",
+        periodo: "2do Bimestre - 18 de Mayo al 3 de Julio",
+        docente: ""
+    },
+ "Balística Interior y Exterior": {
+        horario: "Miércoles de 16 a 21 hs.",
+        enlace: "Link al aula virtual",
+        periodo: "2do Bimestre - 18 de Mayo al 3 de Julio",
+        docente: ""
+    },
+ "Balística de efectos": {
+        horario: "Lunes de 16 a 21 hs.",
+        enlace: "Link al aula virtual",
+        periodo: "3er Bimestre - 6 de Julio al 18 de Septiembre",
+        docente: ""
+    },
+ "Inspección Ocular y Recolección de Indicios": {
+        horario: "Miércoles de 16 a 21 hs.",
+        enlace: "Link al aula virtual",
+        periodo: "3er Bimestre - 6 de Julio al 18 de Septiembre",
+        docente: ""
     }
-];
-
-export default courseSchedules;
+};
