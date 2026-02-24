@@ -1,4 +1,4 @@
-// horariosFCPapiloscopia2026.js
+// horariosFCPapiloscopia2026.js  NO SON LOS HORARIOS CORRECTOS NI DIAS NI LINK
 const linkgeneral = "http://www.webcampus.insusep.edu.ar";
 
 window.horariosCursos = {
