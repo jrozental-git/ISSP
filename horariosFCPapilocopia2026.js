@@ -3,7 +3,7 @@ const linkgeneral = "http://www.webcampus.insusep.edu.ar";
 
 window.horariosCursos = {
 
-
+    linkgeneral: linkgeneral,
     "MÓDULO I - Análisis Papiloscópico": {
         horario: "Horario a definir",
         enlace: linkgeneral,
